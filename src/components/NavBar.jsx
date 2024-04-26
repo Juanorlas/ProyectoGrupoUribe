@@ -43,27 +43,33 @@ const NavBar = () => {
                 <div className='flex-10'>
                 <ul className='flex gap-8 mr-16 text-[18px] '>
             <Link  to= "/">
-            <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Home</li>
+            <li className='hover:text-sky-600 transition border-b-2 border-slate-900 hover:border-sky-600 cursor-pointer'>Home</li>
             </Link>
             <Link  to= "/Americaneagle">
-            <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>American Eagle</li>            
+            <li className='hover:text-sky-600 transition border-b-2 border-slate-900 hover:border-sky-600 cursor-pointer'>American Eagle</li>            
             </Link>
             <Link  to= "/Chevignon">
-            <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Chevignon</li>
+            <li className='hover:text-sky-600 transition border-b-2 border-slate-900 hover:border-sky-600 cursor-pointer'>Chevignon</li>
             </Link>
             <Link  to= "/Esprit">
-            <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Esprit</li>
+            <li className='hover:text-sky-600 transition border-b-2 border-slate-900 hover:border-sky-600 cursor-pointer'>Esprit</li>
             </Link>
             <Link  to= "/Gstarraw">
-            <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Gstar Raw</li>
+            <li className='hover:text-sky-600 transition border-b-2 border-slate-900 hover:border-sky-600 cursor-pointer'>Gstar Raw</li>
             </Link>
 
         <div className='cursor-pointer'>
-        <FaCartArrowDown />
 
+        <Link to="/comprar">
+        <FaCartArrowDown />
+        </Link>
         </div>
+
         <div className='cursor-pointer'>
+        <Link to="/iniciarSesion">
         <FaUserAlt />
+        
+        </Link>
         </div>
 
         </ul>

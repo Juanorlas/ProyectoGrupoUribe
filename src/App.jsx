@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Home from "./components/layouts/pages/Home"
-import { AmericanEagles } from "./components/layouts/pages/AmericanEagles";
+import AmericanEagles from "./components/layouts/pages/AmericanEagles"
 import Chevignon from "./components/layouts/pages/Chevignon";
 import Esprit from "./components/layouts/pages/Esprit";
 import GstarRaw from "./components/layouts/pages/GstarRaw";
@@ -19,7 +19,7 @@ import NavBar from "./components/NavBar";
   
 
   return (
-    <div className="bg-slate-500">
+    <div className="bg-sky-300">
     <BrowserRouter>
     <NavBar />
     <Routes>

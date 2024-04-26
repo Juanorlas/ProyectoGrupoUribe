@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Promouno from '../../../assets/promo1AmericanEagle.jpg'
-import PromoDos from '../../../assets/promo1AmericanEagle.jpg'
-import PromoTres from '../../../assets/promo1AmericanEagle.jpg'
-import PromoCuatro from '../../../assets/promo1AmericanEagle.jpg'
+import PromoDos from '../../../assets/promo1Chevignon.jpg'
+import PromoTres from '../../../assets/promo1Esprit.jpg'
+import PromoCuatro from '../../../assets/promo1GStarRaw.jpg'
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -15,12 +15,7 @@ const Carousel = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 4 ? 0 : prevSlide + 1));
   };
 
-  const carouselImages = [
-    {Promouno},
-    {PromoDos},
-    {PromoTres},
-    "/docs/images/carousel/carousel-4.svg",
-    "/docs/images/carousel/carousel-5.svg",
+  const carouselImages = [Promouno, PromoDos, PromoTres, PromoCuatro, PromoDos
   ];
 
   return (
