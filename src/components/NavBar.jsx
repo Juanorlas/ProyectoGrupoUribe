@@ -5,6 +5,7 @@ import {CiMenuFries} from "react-icons/ci"
 import { FaCartArrowDown } from "react-icons/fa6";
 import { FaUserAlt } from "react-icons/fa";
 import { TbHandClick } from 'react-icons/tb';
+import Login from './layouts/auth/Login';
 
 const NavBar = () => {
     const [click, setClick] = useState(false);
@@ -66,7 +67,7 @@ const NavBar = () => {
         </div>
 
         <div className='cursor-pointer'>
-        <Link to="/iniciarSesion">
+        <Link to="/Login">
         <FaUserAlt />
         
         </Link>

@@ -31,7 +31,7 @@ const AmericanEagles = () => {
           {/* Descripción */}
           <p className="text-lg font-bold">{image.description}</p>
           {/* Precio */}
-          <p className="text-sm">{image.price}</p>
+          <p className="text-sm">{image.precio}</p>
           {/* Botón Agregar a la compra */}
           <button className="bg-blue-500 text-white px-4 py-2 mt-2 rounded">Agregar a la compra</button>
         </div>
